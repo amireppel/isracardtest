@@ -3,7 +3,6 @@ import { useSelector } from 'react-redux';
 import Article from './article';
 import {
     View,
-
     ScrollView, 
     StyleSheet,
 } from 'react-native';

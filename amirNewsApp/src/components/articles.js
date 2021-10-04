@@ -15,6 +15,7 @@ const Articles = ({navigate}) => {
   const category = useSelector(state => state.news.category)
   const articles = useSelector(state => state.news.articles )
   const dispatch = useDispatch();
+  
   return (
     <View styles={styles.container}>
       <Text style={styles.text}>{category}</Text>

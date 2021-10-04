@@ -10,7 +10,8 @@ import {
 } from 'react-native';
 
 const Article= ({info, addOption, navigate}) => {
-   const dispatch = useDispatch()
+  const dispatch = useDispatch()
+  
   return (
     <View 
       style={styles.container}>
